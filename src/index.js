@@ -57,7 +57,7 @@ resolver.define('fetchWorklogs', async (req) => {
 
 resolver.define('fetchIssueDetails', async (req) => {
     const { issueId } = req.payload;
-    const url = `https://simplewms.atlassian.net/rest/api/2/issue/${issueId}`;
+    const url = `https://xxxxxx.atlassian.net/rest/api/2/issue/${issueId}`;
 
     console.log(`Chamando a URL: ${url}`);
 
