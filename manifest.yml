@@ -5,7 +5,7 @@ modules:
       resolver:
         function: resolver
       title: SIMPLE WMS
-      icon: https://excelsimplewms.s3.us-east-2.amazonaws.com/imgSimple.jpg
+      icon: 
       layout: basic
   function:
     - key: resolver
@@ -14,7 +14,7 @@ resources:
   - key: main
     path: static/hello-world/build
 app:
-  id: ari:cloud:ecosystem::app/d4e5bf76-eab3-4ac1-b1f9-fc7b073f6df9
+  id: 
 permissions:
   scopes:
     - read:jira-work
